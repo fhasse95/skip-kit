@@ -94,6 +94,8 @@ public enum MailComposerResult: String, Sendable {
 
 /// Utility for checking mail composition availability.
 public enum MailComposer {
+
+    // SKIP @nobridge
     /// Whether the device can send email.
     ///
     /// On iOS, this checks `MFMailComposeViewController.canSendMail()`.
@@ -115,6 +117,8 @@ public enum MailComposer {
 // MARK: - View Extension
 
 extension View {
+
+    // SKIP @nobridge
     /// Present an email composition interface.
     ///
     /// On iOS, this presents an `MFMailComposeViewController` in a sheet.

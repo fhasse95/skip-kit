@@ -4,6 +4,7 @@
 import Foundation
 import SwiftUI
 
+// SKIP @nobridge
 /// A "Software Bill of Materials" view that displays the third-party software dependencies
 /// of the host app, parsed from SPDX SBOM resource files in the given bundle.
 ///

@@ -24,6 +24,8 @@ import android.content.ContentResolver
 #endif
 
 extension View {
+    
+    // SKIP @nobridge
     /// Dispay a preview for the selected file. On iOS uses a `QLPreviewController` while on Android it opens a new intent for choosing the appropriate viewer by the `ACTION_VIEW` intent parameter.
     /// On Android is mandatory to use a FileProvider to expose the url to the exteranl app. The file must be in the App Cache foder, otherwise the file provider can't give read access to the receiving app.
     /// If it's used wiith the provided `DocumentPicker` of this library there's no need to move the file since the document provider already creates a copy of the selected file in the cache folder.

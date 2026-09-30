@@ -85,6 +85,8 @@ public enum WebBrowserMode {
 // MARK: - View Extension
 
 extension View {
+
+    // SKIP @nobridge
     /// Opens a web page when `isPresented` becomes `true`.
     ///
     /// - Parameters:

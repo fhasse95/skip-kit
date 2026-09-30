@@ -23,6 +23,7 @@ import androidx.core.content.ContextCompat.startActivity
 
 extension View {
 
+    // SKIP @nobridge
     /// Allows presenting a document picker interface activated by the `isPresented` binding.
     ///
     /// On iOS, this uses `fileImporter` with the supplied content types. On Android, this uses the
@@ -77,6 +78,7 @@ extension View {
         )
     }
 
+    // SKIP @nobridge
     /// Allows presenting a document picker interface activated by the `isPresented` binding.
     ///
     /// On iOS, this uses `fileImporter` with the supplied content types. On Android, this uses the
@@ -184,6 +186,7 @@ extension View {
         #endif
     }
 
+    // SKIP @nobridge
     /// Allows presenting a document exporter interface activated by the `isPresented` binding.
     ///
     /// On iOS, this uses `fileExporter` to present the system export dialog. On Android, this uses the

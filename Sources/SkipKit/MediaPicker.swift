@@ -47,6 +47,8 @@ extension Context {
 #endif
 
 extension View {
+
+    // SKIP @nobridge
     /// Enables a media picker interface for the camera or photo library can be activated through the `isPresented` binding, and which returns the selected image through the `selectedImageURL` binding.
     ///
     /// On iOS, this camera selector will be presented in a `fullScreenCover` view, whereas the media library browser will be presented in a `sheet`.
@@ -139,6 +141,7 @@ extension View {
         }
     }
 
+    // SKIP @nobridge
     /// Enables a media picker interface for the camera or photo library can be activated through the `isPresented` binding, and which returns selected images through the `selectedImageURLs` binding.
     ///
     /// On iOS and Android, `allowsMultipleSelection` only applies to the photo library.
